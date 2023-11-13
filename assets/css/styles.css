@@ -1,0 +1,90 @@
+.backgoundColorNav {
+    background-color:  #93C5D0 !important;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.textNav {
+    font-size: 20px;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.navbar {
+    padding: 20px 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.heightFull {
+    height: 100vh;
+}
+
+.sectionOne {
+    padding-top: 120px;
+    background-color:#F7E056;
+}
+
+.titleSection {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.subtitleSection {
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 34px;
+}
+
+.divContentSection {
+    padding: 0px 100px;
+}
+
+.divTextSection {
+    margin-right: 50px;
+}
+
+.sectionDefault{
+    padding-top: 100px;
+    background-color: #DC8A36; 
+}
+
+#premios{
+    padding-top: 100px;
+    background-color: #F7E056; 
+}
+
+.subtitleSectionL{
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+}
+
+
+.align-self-center{
+    align-content: center;
+}
+
+img { 
+    border-radius: 15px;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .d-flex{
+        display: block !important;
+        margin: 0;
+        padding: 0
+        ;
+    }
+
+    }
